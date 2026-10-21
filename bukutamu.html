@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buku Tamu</title>
 </head>
-<body bgcolor="EFF7FF">
-    <table width="100%" border="0" align="center" cellspacing="0"  bgcolor="17324D">
-        <tr ="">
-            <th width="150"><img align="left" src="image/logo pribadi.png" width="150"></th>
-            <th colspan="3"> <font color="white"> <h1>✦ Personal Website ✦</h1></th>
-            <th width="150"><img align="right" src="image/logo smk 2.png" width="150"></th>
+<body bgcolor="CBD5E1">
+    <table width="100%" border="0" align="center" cellspacing="0"  bgcolor="17324D" bordercolor="0096C7">
+        <tr>
+            <th width="170"><img align="left" src="image/logo pribadi.png" width="170"></th>
+            <th colspan="3"> <font color="white" face="Trebuchet MS" size="7">✦ Personal Website ✦</font><br><font face="Trebuchet MS" size="4" color="white">Nico Exdyansyah Putra Zacky X SIJA 1</font> </th>
+            <th width="120"><img align="right" src="image/logo smk 2.png" width="120"></th>
     </table>
     <table width="100%" border="1" bordercolor="3587A4" align="center" cellspacing="0">
         <tr>
@@ -23,68 +23,50 @@
         </nav> 
         </tr>
     </table>
-        <table align="center" border="1" width="100%" cellspacing="0" bgcolor="D5EEFF">
-            <tr bgcolor="48CAE4">
-                <th><marquee behavior="alternate" loop="-1" scrollamount="15"><h2>Buku Tamu</h2></marquee></th>
-            </tr>
-        </table>
-           <table border="1" width="100%" cellspacing="0">
-            <tr bgcolor="87CEEB">
-                <td align="center"><h4>Silahkan Bisa Diisi</h4></td>
-            </tr>
-           </table>
-            <table border="0" width="100%" cellspacing="0" height="50">
-                <tr bgcolor="CAF0F8">
-                    <td width="100"><form action="">
-                        <label for="">Email : </label>
-                    </td>
-                    <td><input type="email"></td>
-                </tr>
-            <table border="0" width="100%" cellspacing="0" height="50">
-                <tr bgcolor="CAF0F8">
-                    <td width="100"><form action="" >
-                        <label for="">Nama : </label>
-                    </td>
-                    <td><input type="text"></td>
-                </tr>
-            </table>
-            <table border="0" width="100%" cellspacing="0" height="70">
-                <tr bgcolor="CAF0F8">
-                    <td width="100">
-                        <form action="">
-                            <label for="">Jenis Kelamin : </label>
-                    </td>
-                    <td>
-                        <input type="radio" name="Jenis Kelamin" value="Laki-laki" id="Laki-laki"> Laki-laki <br>
-                        <input type="radio" name="Jenis Kelamin" value="Perempuan" id="Perempuan"> Perempuan
-                    </form>
-                </td>
-                </tr>
-            </table>
-            <table align="center" border="1" width="100%" cellspacing="0">
-                <tr bgcolor="87CEEB">
-                    <td align="center">Silahkan tinggalkan pesan dan kesan setelah mengunjungki web saya</td>
-                </tr>
-            </table>
-            <table border="0" width="100%" cellspacing="0" height="130" >
-                <tr bgcolor="CAF0F8">
-                    <td width="100"><form action="">
-                        <label for="">Pesan : </label>
-                    </td>
-                    <td><textarea name="" id="" cols="40" rows="3"></textarea><br>
-                    <button type="submit">Kirim</button>
-                    <button type="reset">Reset</button></td>
-                </tr>
-            </table>
-            <table align="center" border="0" width="100%" cellspacing="0">
-                <tr></tr>
-            </table>
-        </table>
-        <table align="center" border="1" width="100%" cellspacing="0" bgcolor="12304A">
+    <table align="center" border="1" width="100%" cellspacing="0" bgcolor="D5EEFF">
+        <tr bgcolor="48CAE4">
+            <th><marquee behavior="alternate" loop="-1" scrollamount="15"><h2>Buku Tamu</h2></marquee></th>
+        </tr>
+    </table>
+    <table border="0" width="100%" cellspacing="0">
+        <tr bgcolor="87CEEB">
+            <td align="center"><font face="times new roman" size="4">Yuk isi buku tamu! Masukan dan saranmu sangat berarti buatku.</font></td>
+        </tr>
+    </table>
+    <form action="https://formspree.io/f/xoejokzd" method="post">
+        <table border="1" width="100%" cellspacing="0" cellpadding="5" bgcolor="CAF0F8" align="center"> 
             <tr>
-                <th> <font color="white">© 2026 Nico Exdyansyah Putra Zacky. Dibuat dengan HTML murni.</th>
+                <td><label for="email" ><font face="times new roman" size="4">Email : </font></label></td>
+                <td><input type="email" name="email" id="email"><br> <br></td>
+            </tr>
+            <tr>
+                <td><label for="nama"><font face="times new roman" size="4">Nama : </font></label></td>
+                <td><input type="text" name="Nama" id="nama"><br> <br></td>
+            </tr>
+            <tr>
+                <td><label for="jenis-kelamin"><font face="times new roman" size="4">Jenis Kelamin : </font></label></td>
+                <td>
+                    <input type="radio" name="Jenis_Kelamin" value="Laki-laki" id="Laki-laki"> Laki-laki
+                    <input type="radio" name="Jenis_Kelamin" value="Perempuan" id="Perempuan"> Perempuan <br> <br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pesan"><font face="times new roman" size="4">Pesan : </font></label></td>
+                <td><textarea name="Pesan" id="pesan" cols="40" rows="3" placeholder="Masukkan pesan Anda di sini..."></textarea><br></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <button type="submit">Kirim</button>
+                    <button type="reset">Reset</button>
+                </td>
             </tr>
         </table>
+    </form>
+    <table align="center" border="0" width="100%" cellspacing="0" bgcolor="12304A">
+        <tr>
+            <th> <font color="white"><font face="tahoma" size="2">© 2026 Nico Exdyansyah Putra Zacky. Dibuat dengan HTML murni.</font></th>
+        </tr>
+    </table>
 </body>
 </html>
-                    
